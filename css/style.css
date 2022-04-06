@@ -65,6 +65,13 @@ body{
 	background-color: #77cc8f;
 	transform: rotateY(180deg);
 	backface-visibility: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-/*usar flex-basis: 100% quando mobile*/
+.card img{
+	margin: 0 auto;
+	height: 120px;
+	max-height: 120px;
+	width: auto;
+}
