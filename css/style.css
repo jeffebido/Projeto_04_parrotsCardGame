@@ -16,6 +16,7 @@ body{
 	color: #75B79E;
 	box-sizing: border-box;
 	height: 200px;
+	text-align: center;
 }
 .cards{
 	display: flex;
@@ -74,4 +75,21 @@ body{
 	height: 120px;
 	max-height: 120px;
 	width: auto;
+}
+@media (max-width: 614px){
+
+	.header{
+		font-size: 36px;
+	}
+	.cards{
+		padding-left: 100px;
+    	padding-right: 100px;
+	}
+	.col{
+		width: 100%;
+	}
+	.card{
+		height: 350px;
+	}
+
 }
